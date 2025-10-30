@@ -31,7 +31,7 @@ public class Mythread{
         t1.start();                                 // start thread
 
         MyThread_run t2 = new MyThread_run();       // create task
-        Thread thread = new Thread(t2);             // wrap in Thread
+        Thread thread = new Thread(t2);             // wrap in a Thread
         thread.start();                             // start task
     }
 }
